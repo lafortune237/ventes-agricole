@@ -51,6 +51,22 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
+                                <a class="nav-link" href="/">Accueil</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Devenir fournisseur</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Nos différents articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Contactez nous</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">A propos</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
                             @if (Route::has('register'))

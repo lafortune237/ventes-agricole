@@ -25,7 +25,7 @@ Route::get('products/publish', 'ProductController@showPublishProductForm')->name
 
 Route::post('products/publish', 'ProductController@publishProduct');
 
-Auth::routes(['register' => false, 'reset' => false]);
+Auth::routes(['reset' => false]);
 
 Route::get('/home/purchases', 'HomeController@showPurchases')->name('purchases');
 

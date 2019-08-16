@@ -34,14 +34,14 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="btn btn-success" href="{{route('products.publish')}}">Publish</a>
+                            <a class="btn btn-success" href="{{route('products.publish')}}">Ajouter un produit</a>
                         </li>
                         @auth
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('purchases')}}">Purchases</a>
+                                <a class="nav-link" href="{{route('purchases')}}">Mes achats</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('products')}}">Products</a>
+                                <a class="nav-link" href="{{route('products')}}">Mes produits</a>
                             </li>
                         @endauth
                     </ul>
@@ -67,11 +67,11 @@
                                 <a class="nav-link" href="">A propos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a style="margin-right: 7px" class="btn btn-primary" href="{{ route('login') }}">{{ __('Connexion') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="btn btn-primary" href="{{ route('register') }}">{{ __('Inscription') }}</a>
                                 </li>
                             @endif
                         @else
@@ -84,7 +84,7 @@
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
+                                        {{ __('Déconnexion') }}
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">

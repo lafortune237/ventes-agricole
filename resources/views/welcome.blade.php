@@ -6,7 +6,7 @@
         <div class="col-2">
             <div class="row">
                 <div class="col">
-                    <h2>Categories</h2>
+                    <h2>Catégories</h2>
                 </div>
             </div>
             <div class="row">
@@ -24,7 +24,7 @@
         <div class="col">
             <div class="row">
                 <div class="col">
-                    <h2 class="display-2">Products</h2>
+                    <h1 class="display-2">Produits</h1>
                 </div>
             </div>
             <div class="row">

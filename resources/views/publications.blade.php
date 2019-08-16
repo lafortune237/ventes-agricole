@@ -6,7 +6,7 @@
         <div class="col">
             <div class="row">
                 <div class="col">
-                    <h2 class="display-2">Purchases</h2>
+                    <h2 class="display-2">Mes produits</h2>
                 </div>
             </div>
             <div class="row">
